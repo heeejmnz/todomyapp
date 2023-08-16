@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+body {
+  @apply text-primario dark:text-blanco w-full h-screen overflow-hidden
+}
+.myBtn {
+  width: 70px ;
+  height: 70px;
+}
+.buttonDelete {
+  transform: translateX(-100px);
+  transition: transform 1s ease-in-out; 
+}
+.buttonDeleteN {
+  transform: translateX(0);
+}
+.boton__menu {
+  @apply bg-[#FFF] dark:bg-primario w-full h-12 rounded-xl text-2xl dark:text-blanco font-semibold flex items-center justify-center gap-3 text-primario;
+}
+
+
+
+@tailwind utilities;
